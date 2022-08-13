@@ -30,21 +30,6 @@ pluralizelisttitles = false
     weight     = 1
 
 
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
-
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
@@ -57,11 +42,6 @@ pluralizelisttitles = false
     url        = "/faq/"
     weight     = 6
 
-[[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 7
 
 
 # Top bar social links menu
