@@ -46,11 +46,6 @@ pluralizelisttitles = false
 
 # Top bar social links menu
 
-[[menu.topbar]]
-    weight = 1
-    name = "Phone"
-    url = "tel:+12 34 567 89 01"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
     weight = 2
@@ -96,7 +91,7 @@ pluralizelisttitles = false
     longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "pink"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -170,9 +165,9 @@ pluralizelisttitles = false
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carouselCustomers]
     items = 6
@@ -196,14 +191,14 @@ pluralizelisttitles = false
     pagination_speed = 1000
 
 [params.features]
-    enable = true
+    enable = false
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
 
 [params.testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
@@ -211,7 +206,7 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -219,7 +214,7 @@ pluralizelisttitles = false
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
